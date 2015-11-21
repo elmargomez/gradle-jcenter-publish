@@ -228,7 +228,7 @@ So that your `build.gradle` in the root looks like this:
   bintray.oss.password=<your sonatype password>
   ```
 
-13. Add to the PATH the default gradle 2.2.1 actually used by "Android Studio", for example:
+13. Add to the PATH the default gradle 2.2.1 actually used by "Android Studio", for example in Linux:
   ``` bash
   sudo gedit .bashrc
   ```
@@ -236,7 +236,7 @@ So that your `build.gradle` in the root looks like this:
   
 14. Open "Android Studio" terminal and execute:
   ``` bash
-  gradle bintrayUpload
+  ./gradle bintrayUpload
   ```
 
 15. From [Bintray](https://bintray.com/) → My Recent Packages → androidupdatechecker (this is here only after the execution of the previous point 14 ) → Add to Jcenter → Check the box → Group Id = "com.github.danielemaddaluno.androidupdatechecker".<br>
